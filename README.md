@@ -3,11 +3,11 @@
 This is a follow-up to a code retreat that I participated in at work.
 It is a working simulation of Conway's game of life.
 
-The description of the game from Wikipedia (sourced on 2017-05-14):¬
+The description of the game from Wikipedia (sourced on 2017-05-14):
 > The Game of Life, also known simply as Life, is a cellular automaton devised by t
-he British mathematician John Horton Conway in 1970.¬
+he British mathematician John Horton Conway in 1970.
 > The "game" is a zero-player game, meaning that its evolution is determined by its
- initial state, requiring no further input.¬
+ initial state, requiring no further input.
 
 ---
 
