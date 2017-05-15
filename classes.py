@@ -22,12 +22,15 @@ class Game:
     """ Game organizes data around live cells and all relevant neighbors,
         and contains logic to update state in the tick method.
 
-        The game will store a dictionary of relevant cells.
-        Relevant means either live cells or those adjacent to live cells.
-        The dictionary key will be coordinates as a tuple (x, y).
-        The associated value will be the number of live neighbors to that cell.
+        The game will store a set of live cells.
 
         The state will be updated by the tick method.
+        The tick method will inspect each live cell.
+            - First the neighbors will be identified.
+            - Second the number of live neighbors (nln) will be counted.
+                - If the number of live neighbors is 2 or 3, the cell lives.
+            - Third, each neighbor is examined, and again nln is computed.
+                - If the number of live neighbors is 3, the cell swithes on.
     """
 
 
